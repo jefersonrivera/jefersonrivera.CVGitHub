@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body p {
+  font-family: "Raleway", sans-serif;
+}
+
+.containerflex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icono p {
+  font-weight: bold;
+}
+.icono {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#fondo {
+  background-image: url("../imgs/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.icono p:hover {
+  background-color: aqua;
+  color: black;
+}
+h3 {
+  color: white;
+}
+.caracteristicas {
+  color: black;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+p {
+  font-size: 20px;
+}
+.acercademi {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 300px;
+  background-image: url(../imgs/fondoencabezado.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.acercademi h3 {
+  padding-top: 45px;
+}
+.acercademi p {
+  padding: 30px;
+}
+.perfil img {
+  border-radius: 50%;
+  width: 30%;
+  padding-bottom: 30px;
+}
